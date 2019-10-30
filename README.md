@@ -7,8 +7,12 @@
   * Cast traditional oracle from quantum computer
 * [QIS Job](https://github.com/jwoehr/qis_job)
   * Run OpenQASM2 experiments from command line
-  * Other useful features
+  * Other useful features, including
     * List backends
-    * Get backend status
+      * properties
+      * status
+    * Get job list for backend
+      * status
+      * results
 * [NuQASM2](https://github.com/jwoehr/nuqasm2)
   * Experimental regexp-based parser for NuQASM2

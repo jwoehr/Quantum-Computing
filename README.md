@@ -1,6 +1,6 @@
 # Quantum Computing
 
-![qiskit-advocate-150x105](https://user-images.githubusercontent.com/4604036/67760024-26d8c900-fa06-11e9-8f48-18e90157702a.png)
+![qiskit-advocate-150x150](https://images.youracclaim.com/size/150x150/images/2d5dac25-c8ef-4f7e-823b-490d12967c6d/IBM_Quantum_Qiskit_Advocate.png)![qiskit-challenge-150x150](https://images.youracclaim.com/size/150x150/images/1b49991b-1be4-4078-bb7e-96e45599db98/IBM_Quantum_Challenge_2020_Achievement.png)
 
 [Qiskit Advocate](https://www.youracclaim.com/badges/27976146-e4a9-47c6-8a2d-f7e932ea3177/embedded)
 * [Quantum Yi Qing](https://github.com/jwoehr/quantum_yiqing)

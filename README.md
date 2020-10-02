@@ -16,5 +16,5 @@
       * results
 * [NuQASM2](https://github.com/jwoehr/nuqasm2)
   * Experimental regexp-based parser for NuQASM2
-* [QisCons](https://gihub.com/jwoehr/qiscons)
+* [QisCons](https://github.com/jwoehr/qiscons)
   * Text console app to supersede QisJob (see above)

@@ -18,3 +18,6 @@
   * Experimental regexp-based parser for NuQASM2
 * [QisCons](https://github.com/jwoehr/qiscons)
   * Text console app to supersede QisJob (see above)
+## Contributions
+*  [omarcostahamido / qc.VFX](https://github.com/omarcostahamido/qc.VFX)
+   * Quantum Blur for the Qiskit Hackathon October 2020

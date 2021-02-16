@@ -8,8 +8,6 @@
 
 [IBM Champion 2021](https://www.youracclaim.com/badges/528d23d6-087f-4698-8d17-d59688106ac4/public_url)
 
-* [Quantum Yi Qing](https://github.com/jwoehr/quantum_yiqing)
-  * Cast traditional oracle from quantum computer
 * [QISJob](https://github.com/jwoehr/qisjob)
   * Run OpenQASM2 experiments from command line
   * Other useful features, including
@@ -21,8 +19,9 @@
       * results
 * [NuQASM2](https://github.com/jwoehr/nuqasm2)
   * Experimental regexp-based parser for NuQASM2
-* [QisCons](https://github.com/jwoehr/qiscons)
-  * Text console app to supersede QisJob (see above)
+* [Quantum Yi Qing](https://github.com/jwoehr/quantum_yiqing)
+  * Cast traditional oracle from quantum computer
+
 ## Contributions
 *  [omarcostahamido / qc.VFX](https://github.com/omarcostahamido/qc.VFX)
    * Quantum Blur for the Qiskit Hackathon October 2020

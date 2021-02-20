@@ -8,7 +8,7 @@
 
 [IBM Champion 2021](https://www.youracclaim.com/badges/528d23d6-087f-4698-8d17-d59688106ac4/public_url)
 
-* [QISJob](https://github.com/jwoehr/qisjob)
+* [QisJob](https://github.com/jwoehr/qisjob)
   * Run OpenQASM2 experiments from command line
   * Other useful features, including
     * List backends

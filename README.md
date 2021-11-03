@@ -1,6 +1,6 @@
 # Quantum Computing
 
-![qiskit-advocate-150x150](https://images.youracclaim.com/size/150x150/images/377a853f-f995-4e81-aa32-7c0b382a6ef4/IBM_Qiskit_Advocate_-_Advanced.png)
+![qiskit-advocate-150x150](http://softwoehr.com/softwoehr/images/qiskit_advocate_150.png)
 
 [Qiskit Advocate](https://www.youracclaim.com/badges/27976146-e4a9-47c6-8a2d-f7e932ea3177/embedded)
 
@@ -21,6 +21,7 @@
   * Experimental regexp-based parser for NuQASM2
 * [Quantum Yi Qing](https://github.com/jwoehr/quantum_yiqing)
   * Cast traditional oracle from quantum computer
+* [Qiskit Advocate Mentorship Project Fall 2021 OpenQASM 3 Reference Implementation](https://github.com/mentor-fall2021-openqasm)
 
 ## Contributions
 *  [omarcostahamido / qc.VFX](https://github.com/omarcostahamido/qc.VFX)

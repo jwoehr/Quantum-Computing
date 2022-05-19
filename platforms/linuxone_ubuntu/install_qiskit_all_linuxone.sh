@@ -14,7 +14,6 @@ sudo apt install python3-notebook
 sudo apt install python3-h5py
 sudo apt install python3.8-venv
 sudo apt install cmake
-sudo apt install ninja
 sudo apt install ninja-build
 sudo apt install python3-scipy
 sudo apt install python-numpy

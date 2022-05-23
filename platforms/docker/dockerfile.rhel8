@@ -1,0 +1,28 @@
+FROM	registry.access.redhat.com/ubi8/ubi
+
+RUN	dnf update -y && \
+	dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm -y -q
+
+RUN	dnf install --enablerepo=codeready-builder-for-rhel-8-s390x-rpms -y -q \
+	python3-pandas python3-h5py python3-virtualenv libffi-devel hdf5-devel \
+	cmake ninja-build python3-scipy python3-numpy python38 python38-devel \
+	lapack-devel blas64 openblas openblas-devel gcc-gfortran libxml2 libxslt-devel \
+	zeromq-devel python3-packaging gcc-c++ rust rust-toolset suitesparse-devel openssl-devel \
+	libjpeg-turbo-devel libtiff-devel
+
+RUN	alternatives --set python3 /usr/bin/python3.8
+
+RUN	pip3 install --upgrade pip && \
+	pip3 install --upgrade packaging && \
+	pip3 install --upgrade setuptools && \
+	pip3 install Cython && \
+	pip3 install wheel  && \
+	pip3 install pep517  && \
+	pip3 install jupyter && \
+	pip3 install notebook
+
+RUN	pip3 install sklearn
+
+RUN	pip3 install qiskit[all]
+
+ENTRYPOINT	["/bin/bash"]

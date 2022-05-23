@@ -29,5 +29,7 @@
 
 ## Platforms
 I will post recipes in this repository for installing Qiskit on various platforms as I revisit those platforms.
-Currently I have a recipe for LinuxOne Ubuntu as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
+Currently we have
+* a recipe for LinuxOne Ubuntu as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
+* a dockerfile for a Qiskit container in RHEL8
 No guarantees, of course! Such recipes tend to quickly go out of date. [Post an issue](https://github.com/jwoehr/Quantum-Computing/issues) if you find any problems, please!

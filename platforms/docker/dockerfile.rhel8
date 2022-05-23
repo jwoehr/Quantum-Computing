@@ -8,7 +8,7 @@ RUN	dnf install --enablerepo=codeready-builder-for-rhel-8-s390x-rpms -y -q \
 	cmake ninja-build python3-scipy python3-numpy python38 python38-devel \
 	lapack-devel blas64 openblas openblas-devel gcc-gfortran libxml2 libxslt-devel \
 	zeromq-devel python3-packaging gcc-c++ rust rust-toolset suitesparse-devel openssl-devel \
-	libjpeg-turbo-devel libtiff-devel
+	libjpeg-turbo-devel libtiff-devel qt5-qtbase python3-qt5-devel
 
 RUN	alternatives --set python3 /usr/bin/python3.8
 
@@ -24,5 +24,9 @@ RUN	pip3 install --upgrade pip && \
 RUN	pip3 install sklearn
 
 RUN	pip3 install qiskit[all]
+
+ENV	PATH=$PATH:/usr/lib64/qt5/bin
+
+RUN	pip3 install PyQt5
 
 ENTRYPOINT	["/bin/bash"]

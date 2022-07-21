@@ -36,4 +36,11 @@ python3 -m venv qrel_venv --system-site-packages
 pip install -U pip
 pip install wheel
 pip install pep517
-pip install qiskit[all]
+# pip install qiskit[all]
+# There are various issues with installing everything, especially qiskit-aer
+# but until there is GPU support for Qiskit on LinuxOne it's silly to run the CPU-intensive simulator.
+# Also, in some of the most recent (today is 2022-07-21) releases, there are problems building qiskit-terra.
+# So we're just going to install qiskit-terra and qiskit-ibmq-provider which is enough to run experiments on real QPUs in the cloude.
+pip install qiskit-terra==0.20.2
+pip install qiskit-ibmq-provider
+# 

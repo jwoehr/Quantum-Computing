@@ -32,7 +32,7 @@ I will post recipes in this repository for installing Qiskit on various platform
 Currently we have
 * s390 (This was blogged as [Using Qiskit on IBM z Systems](https://medium.com/qiskit/using-qiskit-on-ibm-z-systems-398c0c68ffad))
 	* a recipe for LinuxOne Ubuntu 20.04 as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
-	* a recipe for LinuxOne RedHat 8.6 as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
+	* a recipe for LinuxOne RedHat 8.4 as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
 	* a dockerfile for a Qiskit container in RHEL8 (contributed, not tested by me)
 
 No guarantees, of course! Such recipes tend to quickly go out of date. [Post an issue](https://github.com/jwoehr/Quantum-Computing/issues) if you find any problems, please!

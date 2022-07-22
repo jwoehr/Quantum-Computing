@@ -1,6 +1,6 @@
 # install_qiskit_linuxone_redhat_8.4.sh
 # usage: bash ./install_qiskit_linuxone_redhat_8.4.sh
-# This is my recipe for installing Qiskit on a LinuxOne RedHat 3.8 instance
+# This is my recipe for installing Qiskit on a LinuxOne RedHat 8.4 instance
 # as provisioned by the LinuxOne Community Cloud at
 # https://linuxone.cloud.marist.edu/#/login
 # Thus, it's dependent on the package configuration used by Community Cloud

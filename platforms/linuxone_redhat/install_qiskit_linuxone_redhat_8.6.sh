@@ -13,12 +13,13 @@
 # https://github.com/jwoehr/Quantum-Computing/issues
 # Jack Woehr jwoehr@softwoehr.com 2022-09-05
 
-# yes | sudo dnf install git
 yes | sudo dnf update
 yes | sudo dnf install python39 python39-devel python39-pip-wheel python39-setuptools-wheel python39-scipy
 yes | sudo dnf install lapack-devel lapack64
 yes | sudo dnf install gcc-c++
 yes | sudo dnf install python39-cryptography
+yes | sudo dnf install python3-pillow-devel # used by matplotlib
+sudo alternatives --set python3 /usr/bin/python3.9
 mkdir Qiskit
 cd Qiskit
 python3 -m venv qrel_venv --system-site-packages
@@ -30,3 +31,10 @@ python3 -m venv qrel_venv --system-site-packages
 pip install qiskit-terra
 pip install cryptography
 pip install qiskit-ibmq-provider
+# Git isn't strictly necessary but you will want it.
+yes | sudo dnf install git
+# Let's install matplotlib which is used by [QisJob](https://github.com/jwoehr/qisjob)
+yes | sudo dnf install freetype-devel
+yes | sudo dnf install make
+pip install wheel
+pip install matplotlib

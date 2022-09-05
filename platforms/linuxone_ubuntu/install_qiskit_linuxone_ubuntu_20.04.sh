@@ -15,7 +15,7 @@
 # You should have found this file at https://github.com/jwoehr/Quantum-Computing
 # File an issue if you have any problems:
 # https://github.com/jwoehr/Quantum-Computing/issues
-# Jack Woehr jwoehr@softwoehr.com 2022-07-21
+# Jack Woehr jwoehr@softwoehr.com 2022-09-05
 cd ~
 mkdir Qiskit
 cd Qiskit

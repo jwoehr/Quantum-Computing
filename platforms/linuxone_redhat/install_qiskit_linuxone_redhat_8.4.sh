@@ -19,6 +19,9 @@ yes | sudo dnf install python39 python39-devel python39-pip-wheel python39-setup
 yes | sudo dnf install lapack-devel lapack64
 yes | sudo dnf install gcc-c++
 yes | sudo dnf install python39-cryptography
+yes | sudo dnf install cargo
+yes | sudo dnf install openblas-devel
+yes | sudo dnf install cmake
 mkdir Qiskit
 cd Qiskit
 python3 -m venv qrel_venv --system-site-packages

@@ -4,9 +4,9 @@
 
 [Qiskit Advocate](https://www.youracclaim.com/badges/27976146-e4a9-47c6-8a2d-f7e932ea3177/embedded)
 
-![IBM-champion-150x150](https://images.youracclaim.com/size/110x110/images/44a9ba34-ff61-4ccf-9381-e422fdb61f5c/IBM_Champion_2021_-_New_Design_v3.png)
-
-[IBM Champion 2021](https://www.youracclaim.com/badges/528d23d6-087f-4698-8d17-d59688106ac4/public_url)
+| ![IBM-champion-2021](https://images.youracclaim.com/size/110x110/images/44a9ba34-ff61-4ccf-9381-e422fdb61f5c/IBM_Champion_2021_-_New_Design_v3.png) |   ![IBM-champion-2022](https://images.credly.com/size/110x110/images/d2ecfda3-ebc4-47e0-9a0b-d976e72e7d7c/image.png) |
+| ------ | ------ |
+| [IBM Champion 2021](https://www.youracclaim.com/badges/528d23d6-087f-4698-8d17-d59688106ac4/public_url) | [IBM Champion 2022](https://www.credly.com/badges/ec1e324e-48e0-4f02-acf6-e1bd017b02d6/public_url) |
 
 * [QisJob](https://github.com/jwoehr/qisjob)
   * Run OpenQASM2 experiments from command line

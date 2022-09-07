@@ -24,6 +24,7 @@ mkdir Qiskit
 cd Qiskit
 python3 -m venv qrel_venv --system-site-packages
 . qrel_venv/bin/activate
+pip install -U pip
 pip install wheel
 # pip install qiskit[all]
 # There are various issues with installing qiskit[all], for instance, qiskit-aer.

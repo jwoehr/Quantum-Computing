@@ -24,6 +24,7 @@ mkdir Qiskit
 cd Qiskit
 python3 -m venv qrel_venv --system-site-packages
 . qrel_venv/bin/activate
+pip install wheel
 # pip install qiskit[all]
 # There are various issues with installing qiskit[all], for instance, qiskit-aer.
 # So we're just going to install qiskit-terra and qiskit-ibmq-provider,
@@ -36,5 +37,4 @@ yes | sudo dnf install git
 # Let's install matplotlib which is used by [QisJob](https://github.com/jwoehr/qisjob)
 yes | sudo dnf install freetype-devel
 yes | sudo dnf install make
-pip install wheel
 pip install matplotlib

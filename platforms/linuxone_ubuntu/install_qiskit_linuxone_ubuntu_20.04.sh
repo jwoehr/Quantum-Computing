@@ -7,7 +7,10 @@
 # to provision new instances.
 ##############################################################################
 # NOTE -- currently BROKEN -- keeps trying to build SciPy ... even though
-# python3-scipy already installed. Must have bumped a version in Qiskit Terra.
+# python3-scipy already installed. The SciPy requirement in Qiskit Terra
+# got bumped (maybe a couple times) most recently to 1.5, which is not
+# what the Ubuntu 20.04 package manager wants to install.
+# See https://github.com/Qiskit/qiskit-terra/pull/6727
 ##############################################################################
 # No guarantee as to usability. Free software, use at your own risk.
 # Installs many packages without asking confirmation.

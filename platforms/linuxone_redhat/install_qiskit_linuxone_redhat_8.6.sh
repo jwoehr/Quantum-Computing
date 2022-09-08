@@ -14,6 +14,8 @@
 # Jack Woehr jwoehr@softwoehr.com 2022-09-05
 
 yes | sudo dnf update
+# You probably already installed git to pull this script down to your RHEL instance.
+# yes | sudo dnf install git
 yes | sudo dnf install python39 python39-devel python39-pip-wheel python39-setuptools-wheel python39-scipy
 yes | sudo dnf install lapack-devel lapack64
 yes | sudo dnf install gcc-c++
@@ -33,8 +35,6 @@ pip install wheel
 pip install qiskit-terra
 pip install cryptography
 pip install qiskit-ibmq-provider
-# Git isn't strictly necessary but you will want it.
-yes | sudo dnf install git
 # Let's install matplotlib which is used by [QisJob](https://github.com/jwoehr/qisjob)
 yes | sudo dnf install freetype-devel
 yes | sudo dnf install make

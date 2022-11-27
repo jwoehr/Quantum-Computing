@@ -23,6 +23,7 @@ cd ~
 mkdir Qiskit
 cd Qiskit
 sudo apt-get update
+yes | sudo apt-get dist-upgrade
 # We will "pre-approve" the changes `apt` asks if it can make to the system
 yes | sudo apt install python3.9
 yes | sudo apt install python3.9-dev

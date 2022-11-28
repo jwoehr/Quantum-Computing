@@ -50,6 +50,8 @@ yes | sudo apt install cython3
 yes | sudo apt install python3-sklearn
 yes | sudo apt install libxml2 
 yes | sudo apt install libxslt1-dev
+yes | sudo apt install meson
+yes | sudo apt install python3-pkgconfig
 python3.9 -m venv qrel_venv --system-site-packages
 . qrel_venv/bin/activate
 pip install -U pip

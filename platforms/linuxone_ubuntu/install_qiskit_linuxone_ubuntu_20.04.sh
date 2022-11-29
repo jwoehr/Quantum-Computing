@@ -54,6 +54,7 @@ yes | sudo apt install libxslt1-dev
 yes | sudo apt install meson
 yes | sudo apt install python3-pkgconfig
 yes | sudo apt install python3-cffi
+yes | sudo apt install python3-cffi-backend
 python3.9 -m venv qrel_venv --system-site-packages
 . qrel_venv/bin/activate
 pip install -U pip

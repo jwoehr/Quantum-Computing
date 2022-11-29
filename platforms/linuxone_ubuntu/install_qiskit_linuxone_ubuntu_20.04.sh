@@ -23,8 +23,9 @@ cd ~
 mkdir Qiskit
 cd Qiskit
 sudo apt-get update
+# We use `yes` to "pre-approve" the changes `apt` wants to make to the system
 yes | sudo apt-get dist-upgrade
-# We will "pre-approve" the changes `apt` asks if it can make to the system
+yes | sudo apt install cmake
 yes | sudo apt install python3.9
 yes | sudo apt install python3.9-dev
 yes | sudo apt install python3.9-venv
@@ -52,9 +53,11 @@ yes | sudo apt install libxml2
 yes | sudo apt install libxslt1-dev
 yes | sudo apt install meson
 yes | sudo apt install python3-pkgconfig
+yes | sudo apt install python3-cffi
 python3.9 -m venv qrel_venv --system-site-packages
 . qrel_venv/bin/activate
 pip install -U pip
+pip install -U psutil
 pip install wheel
 pip install pep517
 # pip install qiskit[all]

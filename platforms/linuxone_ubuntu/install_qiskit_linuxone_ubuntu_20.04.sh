@@ -37,7 +37,7 @@ yes | sudo apt install python3-h5py
 # yes | sudo apt install cmake
 # yes | sudo apt install ninja-build
 yes | sudo apt install python3-scipy
-yes | sudo apt install python-numpy
+yes | sudo apt install python3-numpy
 # yes | sudo apt install lapack
 # yes | sudo apt install libblas
 # yes | sudo apt install liblas

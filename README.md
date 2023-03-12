@@ -33,7 +33,8 @@ Currently we have
 * s390 (This was blogged as [Using Qiskit on IBM z Systems](https://medium.com/qiskit/using-qiskit-on-ibm-z-systems-398c0c68ffad))
 	* a recipe for LinuxOne Ubuntu 20.04 as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
 	  * Qiskit Terra and the IBMQ Provider install on Ubuntu, but currently the Provider has some problems running (cffi) ... I'm working working on this ...
-	* a recipe for LinuxOne RedHat 8.7 as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login).
+	* a recipe for LinuxOne RedHat as provisioned by the [Linuxone Community Cloud](https://linuxone.cloud.marist.edu/#/login)
+	  * Trying to keep this up to date ... just updated for RHEL 9.1
 	* a dockerfile for a Qiskit container in RHEL8 (contributed, not tested by me)
 
 No guarantees, of course! Such recipes tend to quickly go out of date. [Post an issue](https://github.com/jwoehr/Quantum-Computing/issues) if you find any problems, please!

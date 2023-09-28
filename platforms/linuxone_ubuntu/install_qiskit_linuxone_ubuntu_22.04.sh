@@ -20,7 +20,10 @@ sudo apt-get update
 # We use `yes` to "pre-approve" the changes `apt` wants to make to the system
 yes | sudo apt-get dist-upgrade
 yes | sudo apt install cmake
-yes | sudo apt install python3.10
+
+# Already installed on LinuxOne Community Cloud Ubuntu 22.04
+# yes | sudo apt install python3.10
+
 yes | sudo apt install python3.10-dev
 yes | sudo apt install python3.10-venv
 yes | sudo apt-get dist-upgrade
@@ -55,10 +58,7 @@ pip install -U pip
 pip install -U psutil
 pip install wheel
 pip install pep517
-# pip install qiskit[all]
-# There are various issues with installing qiskit[all], for instance, qiskit-aer.
-# So we're just going to install qiskit-terra and qiskit-ibmq-provider,
-# which is enough to run experiments on real QPUs in the cloud.
-pip install qiskit-terra
+pip install qiskit
 pip install qiskit-ibm-provider
+pip install qiskit-aer # supported with special build on s390 Ubuntu
 # End

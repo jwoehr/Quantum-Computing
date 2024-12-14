@@ -1,14 +1,6 @@
 # Quantum Computing
 
-* [QisJob](https://github.com/jwoehr/qisjob)
-  * Run OpenQASM2 experiments from command line
-  * Other useful features, including
-    * List backends
-      * properties
-      * status
-    * Get job list for backend
-      * status
-      * results
+* [QisJob](https://github.com/jwoehr/qisjob) **Archived** _Out of date with respect to modern Qiskit_
 * [NuQASM2](https://github.com/jwoehr/nuqasm2)
   * Experimental regexp-based parser for NuQASM2
 * [Quantum Yi Qing](https://github.com/jwoehr/quantum_yiqing)

@@ -1,4 +1,4 @@
-# install_qiskit_linuxone_redhat_9.1_qiskit_1.4.0.sh
+# install_qiskit_1.4.0_linuxone_redhat_9.1.sh
 # usage: bash ./install_qiskit_linuxone_redhat_9.1_qiskit_1.4.0.sh
 # This is my recipe for installing Qiskit 1.4.0 on a LinuxOne RedHat 9.1 instance
 # as provisioned by the LinuxOne Community Cloud at

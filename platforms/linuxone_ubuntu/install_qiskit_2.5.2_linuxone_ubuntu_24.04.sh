@@ -14,7 +14,6 @@
 # https://github.com/jwoehr/Quantum-Computing/issues
 # Jack Woehr jwoehr@softwoehr.com 2026-08-23
 
-
 # Ubuntu packages
 sudo apt-get update
 sudo apt-get -y dist-upgrade

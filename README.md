@@ -35,3 +35,7 @@ No guarantees, of course! Such recipes tend to quickly go out of date. [Post an 
 
 * [omarcostahamido / qc.VFX](https://github.com/omarcostahamido/qc.VFX)
   * Quantum Blur for the Qiskit Hackathon October 2020
+
+## License
+
+All files in this repository are licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
